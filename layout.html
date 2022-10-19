@@ -5,12 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
-    <link rel="stylesheet" href="src/css/Custom.csss">
+    <link rel="stylesheet" href="src/css/Custom.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap');
+
+      /*  @font-face {
+            font-family: "Bangna";
+            src: url('src/font/bangna-new.ttf'),
+                 url('src/font/bangna-new.eot');
+
+        }*/
+        *{            
+          /*  font-family: "Bangna"; */
+            /* font-weight: bold;  */
+            /* font-style: italic; */
+            font-family: 'Athiti', sans-serif;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+        }
+    </style> 
+    
 </head>
 <body>
     <main>
         <header>
-            <div id="logo">logo</div>
+            <div id="Logo"><img src="src/images/ME.jpg" alt="" width="40px" height="40px" style="border-radius: 50%; margin-left: 10px; margin-top: 5px;"></div>
             <div id="Menu"><ul>
                   <li><a href="#">Home</a></li>
                   <li><a href="#">Education</a></li>
@@ -20,11 +39,34 @@
             </ul>
             </div>
         </header>
-        <div id="Slide">Slide</div>
-        <div id="Content">Content
-            <div class="Subcontent">Subcontent</div>
-            <div class="Subcontent">Subcontent</div>
-            <div class="Subcontent">Subcontent</div>
+        <div id="Slide"><img src="src/images/slide.jpg" alt="" width="1000px"></div>
+        <div id="Content">
+            <div class="Subcontent">
+                <H1 style="text-align: center;">About Me</H1>
+                <h3>เกี่ยวกับฉัน</h3>
+                <p>ชื่อสกุล : ศุภโชค เลาหะโรจน์</p>
+                <p>ชื่อเล่น : จิ๋ว</p>
+                <p>วันเกิด : 8 พฤศจิกายน 2544</p>
+                <p>อายุ : 20</p>
+                <p>เกิดที่จังหวัด : นนทบุรี</p>
+                <p>อาศัยอยู่ที่จังหวัด : ราชบุรี</p>
+
+                </div>
+            <div class="Subcontent">
+                <h1 style="text-align: center;">Education</h1>
+                <h3>ประวัติการศึกษา</h3>
+                <p>จบการศึกษาชั้นมัธยมต้นจาก โรงเรียนช่องพรานวิทยา</p>  
+                <p>จบการศึกษาชั้นมัธยมปลายจาก โรงเรียนช่องพรานวิทยา</p>
+                <p>กำลังศึกษาปริญญาตรี มหาวิทยาลัยราชภัฏนครปฐม</p>
+            </div>
+            <div class="Subcontent">
+                <h1 style="text-align: center;">Programming Skill</h1>
+                <h3>ทักษะการเขียนโปรแกรม</h3>
+                <p>Java : Besic</p>
+                <p>HTML : Besic</p>
+                <p>CSS : Besic</p>
+                <p>C++ : Besic</p> 
+            </div>
         </div>
     </main>   
 </body>
